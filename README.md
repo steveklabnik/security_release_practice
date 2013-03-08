@@ -51,7 +51,7 @@ First, some setup work. Fork the repository and clone it down. Or, just clone
 mine, whatever:
 
 ```
-$ git clone https://github.com/steveklabink/security_release_practice
+$ git clone https://github.com/steveklabnik/security_release_practice
 $ cd security_release_practice
 ```
 
