@@ -5,4 +5,8 @@ module SecurityReleasePractice
     input.to_sym
     input.to_i + 5
   end
+
+  def another_new_calculation(input)
+    input.to_s + ", lol."
+  end
 end
