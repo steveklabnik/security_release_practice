@@ -148,7 +148,7 @@ And you're done!
 
 ### Other considerations
 
-If we had a CHANGELOG, we'd need to udpate that as appropriate, including
+If we had a CHANGELOG, we'd need to update that as appropriate, including
 creating new sections for our `1.0.1` release.
 
 Sometimes it's easier to fix things on master first, then backport to the new
