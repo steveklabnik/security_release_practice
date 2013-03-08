@@ -56,10 +56,11 @@ $ cd security_release_practice
 ```
 
 Next, since this repository has the backported fix involved, you need
-to remove that commit:
+to remove that commit and the tag I created:
 
 ```
 $ git reset --hard HEAD~1
+$ git tag -d v1.0.1
 ```
 
 This basically backs our branch out by one commit. Now we're ready to go.
