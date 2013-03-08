@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+require 'security_release_practice'
+
+include SecurityReleasePractice
+
+puts "OMG THIS IS SUPER SECURE!!!!"
+puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+puts ""
+loop do
+  puts "Please input a number."
+  print "> "
+
+  input = $stdin.gets.chomp
+
+  if input == "quit"
+    break
+  end
+
+  answer = super_secure_calculation(input)
+
+  puts ""
+  puts "THE ANSWER:"
+  puts answer
+  puts ""
+end
+
+puts "KTHANXBAI!"
+puts "<3"
