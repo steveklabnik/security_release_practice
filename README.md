@@ -23,7 +23,7 @@ then, we've had a new feature, and a backwards incompatible change with
 This is a problem: if we fix the issue and release, people who are relying on
 the `+ 5` behavior can't upgrade: they'll now be getting `+ 6`. Also, the new
 feature (`another_new_calculation`) may have conflicts or weirdness with their
-code. That's bad! So what we really want is a relase that's exactly the
+code. That's bad! So what we really want is a release that's exactly the
 same as 1.0.0, but with the security fix applied.
 
 Let's give that a shot.
